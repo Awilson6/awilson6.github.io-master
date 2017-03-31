@@ -1,0 +1,104 @@
+body, html {
+  margin: 0;
+  height: 100%;
+
+}
+body  {
+  padding-top: 50px;
+  padding-bottom: 0px;
+  background-color: #FC0DFF;
+
+}
+
+.email-form {
+  width: 400px;
+  margin: 0 auto;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+.video-foreground{
+  position: absolute;
+  top: 800px;
+  color: white;
+
+
+}
+  /* we use these classes to add background images to divs*/
+.index.image-background {
+   background-image: url('../img/lipbg.jpg');
+   background-size: cover;
+   max-width: 100%;
+   height: 100%;
+
+}
+ .contact.image-background {
+   background-image: url('img/bgcp.jpg');
+   background-size: cover;
+   max-width: 100%;
+   position: absolute;
+   z-index: 3;
+ }
+ .shop.image-background{
+   background-image: url('img/shopbg.jpg');
+   background-size: cover;
+   max-width: 100%;
+   height: 100%;
+   padding-right: 500px;
+ }
+ .tutorial.image-background{
+   background-image: url('img/tut.jpg');
+   background-size: cover;
+   max-width: 100%;
+   height: 100%;
+ }
+   canvas {
+    position: absolute;
+    top: 0px;
+}
+   h1 {
+     text-align: center;
+     font-family: 'Dancing Script', cursive;
+}
+   .jumbotron{
+     background-color: black;
+     padding-top: 5px;
+     padding-bottom: 0px;
+     max-width: 100%;
+     text-align: center;
+     font-family: 'Dancing Script', cursive;
+}
+   img {
+     position: absolute;
+     z-index: -1;
+     padding-left: 25px;
+     /*padding-bottom: 2000px;*/
+     width: 100%;
+     padding-right: 30px;
+     padding-left: 40px;
+
+}
+
+  h2 {
+    text-align: center;
+    font-family: 'Dancing Script',cursive;
+}
+.shop.image-background img{
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 1000px;
+}
+.youtube{
+  text-align: center;
+  padding-top: 30px;
+}
+.form{
+  padding-right: 30px;
+  /*padding-left: 50px;*/
+}
+.container img {
+  width: 50px;
+  height: 50px:
+  z-index: 2;
+
+}
